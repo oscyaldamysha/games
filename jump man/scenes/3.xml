@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="4" desc="" eventsnippetid="12" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="85.0" height="480" id="3" name="level two" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="3" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="64,64,64" id="2" locked="false" name="Layer 2" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="3" locked="false" name="Layer 3" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,0,255" id="4" locked="false" name="Layer 4" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="66" c="false" group="1" id="23" name="wall 66" sx="1.0" sy="1.0" x="576" y="416" z="3"/>
+        <actor a="0.0" aid="67" c="false" group="1" id="23" name="wall 67" sx="1.0" sy="1.0" x="576" y="352" z="3"/>
+        <actor a="0.0" aid="68" c="false" group="1" id="23" name="wall 68" sx="1.0" sy="1.0" x="576" y="288" z="3"/>
+        <actor a="0.0" aid="69" c="false" group="1" id="23" name="wall 69" sx="1.0" sy="1.0" x="576" y="224" z="3"/>
+        <actor a="0.0" aid="70" c="false" group="1" id="23" name="wall 70" sx="1.0" sy="1.0" x="576" y="160" z="3"/>
+        <actor a="0.0" aid="71" c="false" group="1" id="23" name="wall 71" sx="1.0" sy="1.0" x="576" y="96" z="3"/>
+        <actor a="0.0" aid="72" c="false" group="1" id="23" name="wall 72" sx="1.0" sy="1.0" x="576" y="32" z="3"/>
+        <actor a="0.0" aid="73" c="false" group="1" id="23" name="wall 73" sx="1.0" sy="1.0" x="576" y="0" z="3"/>
+        <actor a="0.0" aid="74" c="false" group="1" id="25" name="wall 2 74" sx="1.0" sy="1.0" x="0" y="416" z="3"/>
+        <actor a="0.0" aid="75" c="false" group="1" id="25" name="wall 2 75" sx="1.0" sy="1.0" x="0" y="352" z="3"/>
+        <actor a="0.0" aid="76" c="false" group="1" id="25" name="wall 2 76" sx="1.0" sy="1.0" x="0" y="288" z="3"/>
+        <actor a="0.0" aid="77" c="false" group="1" id="25" name="wall 2 77" sx="1.0" sy="1.0" x="0" y="224" z="3"/>
+        <actor a="0.0" aid="78" c="false" group="1" id="25" name="wall 2 78" sx="1.0" sy="1.0" x="0" y="160" z="3"/>
+        <actor a="0.0" aid="79" c="false" group="1" id="25" name="wall 2 79" sx="1.0" sy="1.0" x="0" y="96" z="3"/>
+        <actor a="0.0" aid="80" c="false" group="1" id="25" name="wall 2 80" sx="1.0" sy="1.0" x="0" y="32" z="3"/>
+        <actor a="0.0" aid="81" c="false" group="1" id="25" name="wall 2 81" sx="1.0" sy="1.0" x="0" y="0" z="3"/>
+        <actor a="0.0" aid="82" c="false" group="1" id="27" name="out of screen 82" sx="1.0" sy="1.0" x="0" y="480" z="4"/>
+        <actor a="0.0" aid="83" c="false" group="1" id="27" name="out of screen 83" sx="1.0" sy="1.0" x="64" y="480" z="4"/>
+        <actor a="0.0" aid="84" c="false" group="1" id="27" name="out of screen 84" sx="1.0" sy="1.0" x="128" y="480" z="4"/>
+        <actor a="0.0" aid="85" c="false" group="1" id="27" name="out of screen 85" sx="1.0" sy="1.0" x="192" y="480" z="4"/>
+        <actor a="0.0" aid="86" c="false" group="1" id="27" name="out of screen 86" sx="1.0" sy="1.0" x="256" y="480" z="4"/>
+        <actor a="0.0" aid="87" c="false" group="1" id="27" name="out of screen 87" sx="1.0" sy="1.0" x="320" y="480" z="4"/>
+        <actor a="0.0" aid="88" c="false" group="1" id="27" name="out of screen 88" sx="1.0" sy="1.0" x="384" y="480" z="4"/>
+        <actor a="0.0" aid="89" c="false" group="1" id="27" name="out of screen 89" sx="1.0" sy="1.0" x="448" y="480" z="4"/>
+        <actor a="0.0" aid="90" c="false" group="1" id="27" name="out of screen 90" sx="1.0" sy="1.0" x="512" y="480" z="4"/>
+        <actor a="0.0" aid="91" c="false" group="1" id="27" name="out of screen 91" sx="1.0" sy="1.0" x="576" y="480" z="4"/>
+    </actors>
+    <snippets/>
+    <terrain>
+        <p pts="4,640.0,480.0,0.0,480.0,0.0,0.0,640.0,0.0" x="0.0" y="0.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>
