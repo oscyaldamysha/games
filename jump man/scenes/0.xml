@@ -17,7 +17,7 @@
         <actor a="0.0" aid="8" c="false" group="1" id="12" name="ground 8" sx="1.0" sy="1.0" x="96" y="320" z="1"/>
         <actor a="0.0" aid="9" c="false" group="1" id="12" name="ground 9" sx="1.0" sy="1.0" x="288" y="224" z="1"/>
         <actor a="0.0" aid="10" c="false" group="1" id="12" name="ground 10" sx="1.0" sy="1.0" x="544" y="320" z="1"/>
-        <actor a="0.0" aid="11" c="false" group="1" id="12" name="ground 11" sx="1.0" sy="1.0" x="544" y="160" z="1"/>
+        <actor a="0.0" aid="11" c="false" group="1" id="12" name="ground 11" sx="1.0" sy="1.0" x="544" y="192" z="1"/>
         <actor a="0.0" aid="12" c="false" group="1" id="14" name="ground 2 12" sx="1.0" sy="1.0" x="160" y="192" z="1"/>
         <actor a="0.0" aid="15" c="false" group="0" id="21" name="hero 15" sx="1.0" sy="1.0" x="298" y="368" z="1"/>
         <actor a="0.0" aid="18" c="false" group="1" id="14" name="ground 2 18" sx="1.0" sy="1.0" x="192" y="96" z="1"/>
@@ -39,7 +39,7 @@
         <actor a="0.0" aid="35" c="false" group="1" id="25" name="wall 2 35" sx="1.0" sy="1.0" x="0" y="32" z="1"/>
         <actor a="0.0" aid="36" c="false" group="1" id="25" name="wall 2 36" sx="1.0" sy="1.0" x="0" y="-32" z="1"/>
         <actor a="0.0" aid="56" c="false" group="1" id="12" name="ground 56" sx="1.0" sy="1.0" x="352" y="64" z="1"/>
-        <actor a="0.0" aid="57" c="false" group="1" id="14" name="ground 2 57" sx="1.0" sy="1.0" x="480" y="64" z="1"/>
+        <actor a="0.0" aid="57" c="false" group="1" id="14" name="ground 2 57" sx="1.0" sy="1.0" x="448" y="96" z="1"/>
         <actor a="0.0" aid="68" c="false" group="1" id="31" name="start ground 68" sx="1.0" sy="1.0" x="256" y="416" z="1"/>
         <actor a="0.0" aid="69" c="false" group="-2" id="29" name="next level 69" sx="1.0" sy="1.0" x="0" y="0" z="3"/>
         <actor a="0.0" aid="70" c="false" group="-2" id="29" name="next level 70" sx="1.0" sy="1.0" x="64" y="0" z="3"/>
@@ -61,6 +61,8 @@
         <actor a="0.0" aid="86" c="false" group="1" id="27" name="out of screen 86" sx="1.0" sy="1.0" x="448" y="480" z="3"/>
         <actor a="0.0" aid="87" c="false" group="1" id="27" name="out of screen 87" sx="1.0" sy="1.0" x="512" y="480" z="3"/>
         <actor a="0.0" aid="88" c="false" group="1" id="27" name="out of screen 88" sx="1.0" sy="1.0" x="576" y="480" z="3"/>
+        <actor a="0.0" aid="89" c="false" group="2" id="33" name="fruit 89" sx="1.0" sy="1.0" x="102" y="297" z="1"/>
+        <actor a="0.0" aid="90" c="false" group="2" id="33" name="fruit 90" sx="1.0" sy="1.0" x="550" y="169" z="1"/>
     </actors>
     <snippets/>
     <terrain>

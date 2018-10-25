@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <font eid="3" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <int id="0" val="HOW TO PLAY"/>
+                    <int id="1" val="110"/>
+                    <int id="2" val="25"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <font eid="35" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <int id="0" val="Use arrow keys to move and jump"/>
+                    <int id="1" val="190"/>
+                    <int id="2" val="150"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <font eid="35" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <int id="0" val="Dont go out of bounds!"/>
+                    <int id="1" val="230"/>
+                    <int id="2" val="190"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <font eid="35" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <int id="0" val="If you fall off the screen or hit the walls"/>
+                    <int id="1" val="145"/>
+                    <int id="2" val="230"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <font eid="35" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <int id="0" val="you&amp;apos;ll be killed and have to restart the level"/>
+                    <int id="1" val="135"/>
+                    <int id="2" val="250"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="5" id="-1"/>
+    <group eventID="6" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="6" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <font eid="35" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <int id="0" val="TRY IT"/>
+                    <int id="1" val="295"/>
+                    <int id="2" val="300"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="6" id="-1"/>
+</groups>
