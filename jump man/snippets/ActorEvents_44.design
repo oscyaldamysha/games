@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="73">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="10"/>
+                        </set-dxy>
+                        <setanim comment="false" x="37" y="100">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="walking right"/>
+                        </setanim>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <control eid="3" id="1"/>
+                    </keystate>
+                </if>
+                <else-if comment="false" x="26" y="139">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="172">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="-10"/>
+                        </set-dxy>
+                        <setanim comment="false" x="37" y="199">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="walking left"/>
+                        </setanim>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <control eid="2" id="1"/>
+                    </keystate>
+                </else-if>
+                <else comment="false" x="26" y="238">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="258">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                        </set-dxy>
+                        <setanim comment="false" x="37" y="285">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="idle"/>
+                        </setanim>
+                    </group>
+                </else>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="1">
+        <camera-follow comment="false" x="630" y="164">
+            <ACTOR eid="this" id="0"/>
+        </camera-follow>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <set-dxy comment="false" x="37" y="78">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="-35"/>
+                        </set-dxy>
+                        <set-val-21-1 comment="false" x="37" y="105">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-21-1>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <keystate comment="false" id="0" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <control eid="0" id="1"/>
+                        </keystate>
+                        <eq comment="false" id="1" x="0" y="0">
+                            <get-val-21-1 comment="false" id="0" x="0" y="0"/>
+                            <true comment="false" id="1" x="0" y="0"/>
+                        </eq>
+                    </and>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="4" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="4" id="-1">
+                        <set-val-21-1 comment="false" x="37" y="80">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-21-1>
+                    </group>
+                    <collision-top comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="1"/>
+                    </collision-top>
+                </if>
+                <if comment="false" x="26" y="117">
+                    <group eventID="4" id="-1">
+                        <set-val-21-1 comment="false" x="37" y="155">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-21-1>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <collision-left comment="false" id="0" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <int id="1" val="0"/>
+                        </collision-left>
+                        <collision-right comment="false" id="1" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <int id="1" val="0"/>
+                        </collision-right>
+                    </and>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actorgroup eid="1" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <shout comment="false" x="26" y="47">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="Death"/>
+                </shout>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="23" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="5" id="-1"/>
+    <group eventID="6" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="6" id="-1">
+                <shout comment="false" x="26" y="47">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="Death"/>
+                </shout>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="25" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="6" id="-1"/>
+    <group eventID="7" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="7" id="-1">
+                <shout comment="false" x="26" y="47">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="Death"/>
+                </shout>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="27" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="7" id="-1"/>
+    <group eventID="9" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="9" id="-1">
+                <die comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+                <scene-change-through comment="false" x="26" y="67">
+                    <scene eid="5" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="1"/>
+                </scene-change-through>
+            </group>
+            <int id="0" val="Death"/>
+        </event-custom>
+    </group>
+    <group eventID="9" id="-1"/>
+    <group eventID="10" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="10" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="10" id="-1"/>
+                    <isonscreen comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                    </isonscreen>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="10" id="-1"/>
+    <group eventID="11" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="11" id="-1">
+                <scene-change-through comment="false" x="26" y="47">
+                    <scene eid="3" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="1"/>
+                </scene-change-through>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="29" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="11" id="-1"/>
+</groups>

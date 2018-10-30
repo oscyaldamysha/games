@@ -61,8 +61,9 @@
         <actor a="0.0" aid="86" c="false" group="1" id="27" name="out of screen 86" sx="1.0" sy="1.0" x="448" y="480" z="3"/>
         <actor a="0.0" aid="87" c="false" group="1" id="27" name="out of screen 87" sx="1.0" sy="1.0" x="512" y="480" z="3"/>
         <actor a="0.0" aid="88" c="false" group="1" id="27" name="out of screen 88" sx="1.0" sy="1.0" x="576" y="480" z="3"/>
-        <actor a="0.0" aid="89" c="false" group="2" id="33" name="fruit 89" sx="1.0" sy="1.0" x="102" y="297" z="1"/>
-        <actor a="0.0" aid="90" c="false" group="2" id="33" name="fruit 90" sx="1.0" sy="1.0" x="550" y="169" z="1"/>
+        <actor a="0.0" aid="89" c="false" group="1" id="33" name="fruit 89" sx="1.0" sy="1.0" x="102" y="297" z="1"/>
+        <actor a="0.0" aid="90" c="false" group="1" id="33" name="fruit 90" sx="1.0" sy="1.0" x="550" y="169" z="1"/>
+        <actor a="0.0" aid="91" c="false" group="1" id="42" name="Health Points 91" sx="1.0" sy="1.0" x="480" y="416" z="3"/>
     </actors>
     <snippets/>
     <terrain>

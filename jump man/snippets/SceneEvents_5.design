@@ -83,11 +83,26 @@
                 </set-font-new>
                 <draw-text comment="false" x="26" y="67">
                     <int id="0" val="TRY IT"/>
-                    <int id="1" val="295"/>
-                    <int id="2" val="300"/>
+                    <int id="1" val="290"/>
+                    <int id="2" val="275"/>
                 </draw-text>
             </group>
         </draw>
     </group>
     <group eventID="6" id="-1"/>
+    <group eventID="7" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="7" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <font eid="35" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <int id="0" val="Click next to play your first level"/>
+                    <int id="1" val="170"/>
+                    <int id="2" val="300"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="7" id="-1"/>
 </groups>
