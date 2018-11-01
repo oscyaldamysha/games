@@ -38,19 +38,10 @@
         <actor a="0.0" aid="30" c="false" group="-2" id="29" name="next level 30" sx="1.0" sy="1.0" x="416" y="0" z="3"/>
         <actor a="0.0" aid="31" c="false" group="-2" id="29" name="next level 31" sx="1.0" sy="1.0" x="480" y="0" z="3"/>
         <actor a="0.0" aid="32" c="false" group="-2" id="29" name="next level 32" sx="1.0" sy="1.0" x="544" y="0" z="3"/>
-        <actor a="0.0" aid="33" c="false" group="1" id="27" name="out of screen 33" sx="1.0" sy="1.0" x="0" y="480" z="3"/>
-        <actor a="0.0" aid="34" c="false" group="1" id="27" name="out of screen 34" sx="1.0" sy="1.0" x="64" y="480" z="3"/>
-        <actor a="0.0" aid="35" c="false" group="1" id="27" name="out of screen 35" sx="1.0" sy="1.0" x="128" y="480" z="3"/>
-        <actor a="0.0" aid="36" c="false" group="1" id="27" name="out of screen 36" sx="1.0" sy="1.0" x="192" y="480" z="3"/>
-        <actor a="0.0" aid="37" c="false" group="1" id="27" name="out of screen 37" sx="1.0" sy="1.0" x="256" y="480" z="3"/>
-        <actor a="0.0" aid="38" c="false" group="1" id="27" name="out of screen 38" sx="1.0" sy="1.0" x="320" y="480" z="3"/>
-        <actor a="0.0" aid="39" c="false" group="1" id="27" name="out of screen 39" sx="1.0" sy="1.0" x="384" y="480" z="3"/>
-        <actor a="0.0" aid="40" c="false" group="1" id="27" name="out of screen 40" sx="1.0" sy="1.0" x="448" y="480" z="3"/>
-        <actor a="0.0" aid="41" c="false" group="1" id="27" name="out of screen 41" sx="1.0" sy="1.0" x="512" y="480" z="3"/>
-        <actor a="0.0" aid="42" c="false" group="1" id="27" name="out of screen 42" sx="1.0" sy="1.0" x="576" y="480" z="3"/>
         <actor a="0.0" aid="43" c="false" group="0" id="38" name="hero intro 43" sx="1.0" sy="1.0" x="299" y="369" z="2"/>
         <actor a="0.0" aid="44" c="false" group="-2" id="29" name="next level 44" sx="1.0" sy="1.0" x="576" y="0" z="2"/>
         <actor a="0.0" aid="45" c="false" group="1" id="40" name="NEXT intro 2 45" sx="1.0" sy="1.0" x="480" y="384" z="3"/>
+        <actor a="0.0" aid="46" c="false" group="1" id="27" name="out of screen 46" sx="1.0" sy="1.0" x="0" y="480" z="3"/>
     </actors>
     <snippets/>
     <terrain>

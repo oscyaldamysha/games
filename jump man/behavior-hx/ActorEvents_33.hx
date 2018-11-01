@@ -40,7 +40,6 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
-import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -70,18 +69,28 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_3 extends SceneScript
+class ActorEvents_33 extends ActorScript
 {
 	
 	
-	public function new(dummy:Int, dummy2:Engine)
+	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
-		super();
+		super(actor);
 		
 	}
 	
 	override public function init()
 	{
+		
+		/* ======================== Actor of Type ========================= */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAsAny(getActorType(21), event.otherActor.getType(),event.otherActor.getGroup()))
+			{
+				Engine.engine.setGameAttribute("Health Points", (Engine.engine.getGameAttribute("Health Points") + 1));
+				recycleActor(actor);
+			}
+		});
 		
 	}
 	
