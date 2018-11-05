@@ -3,14 +3,22 @@
     <group eventID="1" id="0">
         <draw comment="false" x="15" y="15">
             <group eventID="1" id="-1">
-                <set-font-new comment="false" x="26" y="40">
-                    <font eid="51" id="0"/>
-                </set-font-new>
-                <draw-text comment="false" x="26" y="67">
-                    <int id="0" val="How To Play"/>
-                    <int id="1" val="75"/>
-                    <int id="2" val="128"/>
-                </draw-text>
+                <if comment="false" x="26" y="40">
+                    <group eventID="1" id="-1">
+                        <set-font-new comment="false" x="37" y="70">
+                            <font eid="51" id="0"/>
+                        </set-font-new>
+                        <draw-text comment="false" x="37" y="97">
+                            <int id="0" val="How To Play"/>
+                            <int id="1" val="75"/>
+                            <int id="2" val="128"/>
+                        </draw-text>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
             </group>
         </draw>
     </group>
@@ -18,14 +26,22 @@
     <group eventID="2" id="0">
         <draw comment="false" x="15" y="15">
             <group eventID="2" id="-1">
-                <set-font-new comment="false" x="26" y="40">
-                    <font eid="51" id="0"/>
-                </set-font-new>
-                <draw-text comment="false" x="26" y="67">
-                    <int id="0" val="Level 1"/>
-                    <int id="1" val="287"/>
-                    <int id="2" val="128"/>
-                </draw-text>
+                <if comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <set-font-new comment="false" x="37" y="70">
+                            <font eid="51" id="0"/>
+                        </set-font-new>
+                        <draw-text comment="false" x="37" y="97">
+                            <int id="0" val="Level 1"/>
+                            <int id="1" val="287"/>
+                            <int id="2" val="128"/>
+                        </draw-text>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
             </group>
         </draw>
     </group>
