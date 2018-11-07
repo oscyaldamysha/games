@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
-    <group eventID="16" id="0">
-        <init comment="false" x="15" y="15">
-            <group eventID="16" id="-1">
-                <set-game-val-0 comment="false" x="26" y="40">
-                    <int id="0" val="1"/>
-                </set-game-val-0>
-            </group>
-        </init>
-    </group>
-    <group eventID="16" id="-1"/>
     <group eventID="1" id="0">
         <step comment="false" x="15" y="15">
             <group eventID="1" id="-1">
@@ -175,7 +165,7 @@
                 <set-xy comment="false" x="26" y="40">
                     <ACTOR eid="this" id="0"/>
                     <int id="1" val="0"/>
-                    <int id="2" val="299"/>
+                    <int id="2" val="320"/>
                 </set-xy>
                 <set-xy comment="false" x="26" y="67">
                     <ACTOR eid="this" id="0"/>
@@ -201,13 +191,15 @@
                     <int id="1" val="0"/>
                     <int id="2" val="1"/>
                 </scene-change-through>
-                <set-game-val-7 comment="false" x="26" y="74">
-                    <true comment="false" id="0" x="0" y="0"/>
-                </set-game-val-7>
             </group>
             <ACTOR eid="this" id="0"/>
             <actortype eid="29" id="1"/>
         </event-collide-actortotype>
+    </group>
+    <group eventID="11" id="1">
+        <set-game-val-2 comment="false" x="90" y="194">
+            <true comment="false" id="0" x="0" y="0"/>
+        </set-game-val-2>
     </group>
     <group eventID="11" id="-1"/>
     <group eventID="14" id="0">

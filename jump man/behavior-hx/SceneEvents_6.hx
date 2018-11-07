@@ -70,7 +70,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_0 extends SceneScript
+class SceneEvents_6 extends SceneScript
 {
 	
 	
@@ -82,6 +82,32 @@ class SceneEvents_0 extends SceneScript
 	
 	override public function init()
 	{
+		
+		/* ========================= When Drawing ========================= */
+		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((Engine.engine.getGameAttribute("how to unlocked") == true))
+				{
+					g.setFont(getFont(51));
+					g.drawString("" + "How To Play", 75, 128);
+				}
+			}
+		});
+		
+		/* ========================= When Drawing ========================= */
+		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((Engine.engine.getGameAttribute("level 1 unlocked") == true))
+				{
+					g.setFont(getFont(51));
+					g.drawString("" + "Level 1", 287, 128);
+				}
+			}
+		});
 		
 	}
 	

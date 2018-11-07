@@ -47,15 +47,17 @@
         <actor a="0.0" aid="99" c="false" group="1" id="12" name="ground 99" sx="1.0" sy="1.0" x="544" y="288" z="4"/>
         <actor a="0.0" aid="100" c="false" group="1" id="14" name="ground 2 100" sx="1.0" sy="1.0" x="96" y="288" z="4"/>
         <actor a="0.0" aid="101" c="false" group="1" id="12" name="ground 101" sx="1.0" sy="1.0" x="128" y="128" z="4"/>
-        <actor a="0.0" aid="102" c="false" group="1" id="12" name="ground 102" sx="1.0" sy="1.0" x="256" y="96" z="4"/>
+        <actor a="0.0" aid="102" c="false" group="1" id="12" name="ground 102" sx="1.0" sy="1.0" x="224" y="96" z="4"/>
         <actor a="0.0" aid="103" c="false" group="1" id="12" name="ground 103" sx="1.0" sy="1.0" x="480" y="224" z="4"/>
         <actor a="0.0" aid="104" c="false" group="1" id="14" name="ground 2 104" sx="1.0" sy="1.0" x="320" y="160" z="4"/>
         <actor a="0.0" aid="105" c="false" group="1" id="12" name="ground 105" sx="1.0" sy="1.0" x="352" y="32" z="4"/>
-        <actor a="0.0" aid="106" c="false" group="1" id="14" name="ground 2 106" sx="1.0" sy="1.0" x="160" y="32" z="4"/>
+        <actor a="0.0" aid="106" c="false" group="1" id="14" name="ground 2 106" sx="1.0" sy="1.0" x="128" y="32" z="4"/>
         <actor a="0.0" aid="107" c="false" group="1" id="14" name="ground 2 107" sx="1.0" sy="1.0" x="512" y="128" z="4"/>
-        <actor a="0.0" aid="108" c="false" group="0" id="44" name="hero level 2 108" sx="1.0" sy="1.0" x="299" y="370" z="4"/>
         <actor a="0.0" aid="109" c="false" group="1" id="42" name="Health Points 109" sx="1.0" sy="1.0" x="480" y="416" z="4"/>
         <actor a="0.0" aid="110" c="false" group="3" id="52" name="villain 110" sx="1.0" sy="1.0" x="539" y="241" z="4"/>
+        <actor a="0.0" aid="111" c="false" group="0" id="56" name="hero level 2 111" sx="1.0" sy="1.0" x="299" y="369" z="4"/>
+        <actor a="0.0" aid="112" c="false" group="1" id="33" name="fruit 112" sx="1.0" sy="1.0" x="104" y="265" z="4"/>
+        <actor a="0.0" aid="113" c="false" group="1" id="33" name="fruit 113" sx="1.0" sy="1.0" x="166" y="9" z="4"/>
     </actors>
     <snippets/>
     <terrain>
