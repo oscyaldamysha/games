@@ -3,14 +3,19 @@
     <group eventID="1" id="0">
         <step comment="false" x="15" y="15">
             <group eventID="1" id="-1">
-                <if comment="false" x="26" y="40">
+                <set-game-val-8 comment="false" x="26" y="40">
+                    <getanim comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                    </getanim>
+                </set-game-val-8>
+                <if comment="false" x="26" y="73">
                     <group eventID="1" id="-1">
-                        <set-dxy comment="false" x="37" y="73">
+                        <set-dxy comment="false" x="37" y="106">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="10"/>
                         </set-dxy>
-                        <setanim comment="false" x="37" y="100">
+                        <setanim comment="false" x="37" y="133">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="walking right"/>
                         </setanim>
@@ -20,14 +25,14 @@
                         <control eid="3" id="1"/>
                     </keystate>
                 </if>
-                <else-if comment="false" x="26" y="139">
+                <else-if comment="false" x="26" y="172">
                     <group eventID="1" id="-1">
-                        <set-dxy comment="false" x="37" y="172">
+                        <set-dxy comment="false" x="37" y="205">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="-10"/>
                         </set-dxy>
-                        <setanim comment="false" x="37" y="199">
+                        <setanim comment="false" x="37" y="232">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="walking left"/>
                         </setanim>
@@ -37,14 +42,26 @@
                         <control eid="2" id="1"/>
                     </keystate>
                 </else-if>
-                <else comment="false" x="26" y="238">
+                <else-if comment="false" x="26" y="271">
                     <group eventID="1" id="-1">
-                        <set-dxy comment="false" x="37" y="258">
+                        <setanim comment="false" x="37" y="304">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="jumping"/>
+                        </setanim>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <control eid="0" id="1"/>
+                    </keystate>
+                </else-if>
+                <else comment="false" x="26" y="343">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="363">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="0"/>
                         </set-dxy>
-                        <setanim comment="false" x="37" y="285">
+                        <setanim comment="false" x="37" y="390">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="idle"/>
                         </setanim>
@@ -52,6 +69,44 @@
                 </else>
             </group>
         </step>
+    </group>
+    <group eventID="1" id="4">
+        <else-if comment="false" x="419" y="243">
+            <group eventID="1" id="-1">
+                <setanim comment="false" x="430" y="281">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="jumping"/>
+                </setanim>
+            </group>
+            <and comment="false" id="0" x="0" y="0">
+                <keystate comment="false" id="0" x="0" y="0">
+                    <int id="0" val="0"/>
+                    <control eid="0" id="1"/>
+                </keystate>
+                <keystate comment="false" id="1" x="0" y="0">
+                    <int id="0" val="0"/>
+                    <control eid="3" id="1"/>
+                </keystate>
+            </and>
+        </else-if>
+        <else-if comment="false" x="419" y="320">
+            <group eventID="1" id="-1">
+                <setanim comment="false" x="430" y="358">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="jumping"/>
+                </setanim>
+            </group>
+            <and comment="false" id="0" x="0" y="0">
+                <keystate comment="false" id="0" x="0" y="0">
+                    <int id="0" val="0"/>
+                    <control eid="0" id="1"/>
+                </keystate>
+                <keystate comment="false" id="1" x="0" y="0">
+                    <int id="0" val="0"/>
+                    <control eid="2" id="1"/>
+                </keystate>
+            </and>
+        </else-if>
     </group>
     <group eventID="1" id="-1"/>
     <group eventID="17" id="0">
@@ -96,6 +151,12 @@
         </step>
     </group>
     <group eventID="2" id="-1"/>
+    <group eventID="18" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="18" id="-1"/>
+        </step>
+    </group>
+    <group eventID="18" id="-1"/>
     <group eventID="4" id="0">
         <event-collide-actortogroup comment="false" x="15" y="15">
             <group eventID="4" id="-1">
@@ -195,11 +256,6 @@
             <ACTOR eid="this" id="0"/>
             <actortype eid="29" id="1"/>
         </event-collide-actortotype>
-    </group>
-    <group eventID="11" id="1">
-        <set-game-val-2 comment="false" x="90" y="194">
-            <true comment="false" id="0" x="0" y="0"/>
-        </set-game-val-2>
     </group>
     <group eventID="11" id="-1"/>
     <group eventID="14" id="0">

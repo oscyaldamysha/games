@@ -12,6 +12,7 @@
     <actors>
         <actor a="0.0" aid="1" c="false" group="1" id="46" name="how to play thumbnail 1" sx="1.0" sy="1.0" x="64" y="32" z="2"/>
         <actor a="0.0" aid="2" c="false" group="1" id="49" name="level 1 thumbnail 2" sx="1.0" sy="1.0" x="256" y="32" z="2"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="58" name="level 2 thumbnail 3" sx="1.0" sy="1.0" x="448" y="32" z="2"/>
     </actors>
     <snippets/>
     <terrain>

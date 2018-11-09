@@ -207,4 +207,23 @@
         </event-collide-actortotype>
     </group>
     <group eventID="11" id="-1"/>
+    <group eventID="12" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="12" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="12" id="-1">
+                        <setanim comment="false" x="37" y="73">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="jumping"/>
+                        </setanim>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <control eid="0" id="1"/>
+                    </keystate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="12" id="-1"/>
 </groups>
