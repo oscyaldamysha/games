@@ -40,7 +40,6 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
-import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -70,88 +69,18 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_5 extends SceneScript
+class ActorEvents_70 extends ActorScript
 {
 	
 	
-	public function new(dummy:Int, dummy2:Engine)
+	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
-		super();
+		super(actor);
 		
 	}
 	
 	override public function init()
 	{
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				g.setFont(getFont(3));
-				g.drawString("" + "HOW TO PLAY", 110, 25);
-			}
-		});
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				g.setFont(getFont(35));
-				g.drawString("" + "Use arrow keys to move and jump", 190, 150);
-			}
-		});
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				g.setFont(getFont(35));
-				g.drawString("" + "Dont go out of bounds!", 230, 190);
-			}
-		});
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				g.setFont(getFont(35));
-				g.drawString("" + "If you fall off the screen or hit the walls", 145, 230);
-			}
-		});
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				g.setFont(getFont(35));
-				g.drawString("" + "you'll be killed and have to restart the level", 135, 250);
-			}
-		});
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				g.setFont(getFont(35));
-				g.drawString("" + "TRY IT", 290, 275);
-			}
-		});
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				g.setFont(getFont(35));
-				g.drawString("" + "Click next to play your first level", 170, 300);
-			}
-		});
 		
 	}
 	

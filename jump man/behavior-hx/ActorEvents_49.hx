@@ -69,7 +69,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_33 extends ActorScript
+class ActorEvents_49 extends ActorScript
 {
 	
 	
@@ -82,23 +82,18 @@ class ActorEvents_33 extends ActorScript
 	override public function init()
 	{
 		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		/* ======================== When Creating ========================= */
+		if((Engine.engine.getGameAttribute("level 1 unlocked") == false))
 		{
-			if(wrapper.enabled && sameAsAny(getActorType(21), event.otherActor.getType(),event.otherActor.getGroup()))
-			{
-				Engine.engine.setGameAttribute("Health Points", (Engine.engine.getGameAttribute("Health Points") + 1));
-				recycleActor(actor);
-			}
-		});
+			recycleActor(actor);
+		}
 		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		/* =========================== On Actor =========================== */
+		addMouseOverActorListener(actor, function(mouseState:Int, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled && sameAsAny(getActorType(56), event.otherActor.getType(),event.otherActor.getGroup()))
+			if(wrapper.enabled && 3 == mouseState)
 			{
-				Engine.engine.setGameAttribute("Health Points", (Engine.engine.getGameAttribute("Health Points") + 1));
-				recycleActor(actor);
+				switchScene(GameModel.get().scenes.get(0).getID(), null, createCrossfadeTransition(1));
 			}
 		});
 		

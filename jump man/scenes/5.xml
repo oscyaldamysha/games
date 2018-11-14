@@ -38,10 +38,10 @@
         <actor a="0.0" aid="30" c="false" group="-2" id="29" name="next level 30" sx="1.0" sy="1.0" x="416" y="0" z="3"/>
         <actor a="0.0" aid="31" c="false" group="-2" id="29" name="next level 31" sx="1.0" sy="1.0" x="480" y="0" z="3"/>
         <actor a="0.0" aid="32" c="false" group="-2" id="29" name="next level 32" sx="1.0" sy="1.0" x="544" y="0" z="3"/>
-        <actor a="0.0" aid="43" c="false" group="0" id="38" name="hero intro 43" sx="1.0" sy="1.0" x="299" y="369" z="2"/>
         <actor a="0.0" aid="44" c="false" group="-2" id="29" name="next level 44" sx="1.0" sy="1.0" x="576" y="0" z="2"/>
         <actor a="0.0" aid="45" c="false" group="1" id="40" name="NEXT intro 2 45" sx="1.0" sy="1.0" x="480" y="384" z="3"/>
         <actor a="0.0" aid="46" c="false" group="1" id="27" name="out of screen 46" sx="1.0" sy="1.0" x="0" y="480" z="3"/>
+        <actor a="0.0" aid="47" c="false" group="0" id="68" name="main hero 47" sx="1.0" sy="1.0" x="298" y="369" z="3"/>
     </actors>
     <snippets/>
     <terrain>

@@ -232,13 +232,13 @@
             </group>
         </step>
     </group>
-    <group eventID="12" id="2">
+    <group eventID="12" id="1">
         <if comment="false" x="246" y="283">
             <group eventID="12" id="-1"/>
             <int id="0" val=""/>
         </if>
     </group>
-    <group eventID="12" id="8">
+    <group eventID="12" id="2">
         <push-shove comment="false" x="147" y="407">
             <ACTOR eid="lastcreated" id="0"/>
             <int id="1" val="1"/>

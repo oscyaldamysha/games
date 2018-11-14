@@ -69,7 +69,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_36 extends ActorScript
+class ActorEvents_66 extends ActorScript
 {
 	
 	
@@ -82,14 +82,8 @@ class ActorEvents_36 extends ActorScript
 	override public function init()
 	{
 		
-		/* =========================== On Actor =========================== */
-		addMouseOverActorListener(actor, function(mouseState:Int, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && 3 == mouseState)
-			{
-				switchScene(GameModel.get().scenes.get(5).getID(), null, createCrossfadeTransition(1));
-			}
-		});
+		/* ======================== When Creating ========================= */
+		
 		
 	}
 	
