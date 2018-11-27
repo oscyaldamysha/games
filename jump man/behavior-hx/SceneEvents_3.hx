@@ -70,7 +70,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_4 extends SceneScript
+class SceneEvents_3 extends SceneScript
 {
 	
 	
@@ -82,56 +82,6 @@ class SceneEvents_4 extends SceneScript
 	
 	override public function init()
 	{
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				g.setFont(getFont(3));
-				g.drawString("" + "HOW TO PLAY", 110, 25);
-			}
-		});
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				g.setFont(getFont(35));
-				g.drawString("" + "Your goal is to reach the top of the screen withought being killed", 50, 150);
-			}
-		});
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				g.setFont(getFont(35));
-				g.drawString("" + "You can be killed by either going out of bounds", 120, 200);
-			}
-		});
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				g.setFont(getFont(35));
-				g.drawString("" + "or killed by enemies", 230, 220);
-			}
-		});
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				g.setFont(getFont(35));
-				g.drawString("" + "Click next", 260, 260);
-			}
-		});
 		
 	}
 	

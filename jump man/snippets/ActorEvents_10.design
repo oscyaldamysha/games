@@ -11,6 +11,9 @@
                 <set-game-val-1 comment="false" x="26" y="69">
                     <true comment="false" id="0" x="0" y="0"/>
                 </set-game-val-1>
+                <set-game-val-9 comment="false" x="26" y="94">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-9>
             </group>
             <ACTOR eid="this" id="0"/>
             <int id="1" val="2"/>

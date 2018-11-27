@@ -11,22 +11,13 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="4" c="false" group="1" id="23" name="wall 4" sx="1.0" sy="1.0" x="576" y="416" z="1"/>
-        <actor a="0.0" aid="5" c="false" group="1" id="23" name="wall 5" sx="1.0" sy="1.0" x="576" y="352" z="1"/>
-        <actor a="0.0" aid="6" c="false" group="1" id="23" name="wall 6" sx="1.0" sy="1.0" x="576" y="288" z="1"/>
-        <actor a="0.0" aid="7" c="false" group="1" id="23" name="wall 7" sx="1.0" sy="1.0" x="576" y="224" z="1"/>
-        <actor a="0.0" aid="8" c="false" group="1" id="23" name="wall 8" sx="1.0" sy="1.0" x="576" y="160" z="1"/>
-        <actor a="0.0" aid="9" c="false" group="1" id="23" name="wall 9" sx="1.0" sy="1.0" x="576" y="96" z="1"/>
-        <actor a="0.0" aid="10" c="false" group="1" id="23" name="wall 10" sx="1.0" sy="1.0" x="576" y="32" z="1"/>
-        <actor a="0.0" aid="11" c="false" group="1" id="23" name="wall 11" sx="1.0" sy="1.0" x="576" y="0" z="1"/>
-        <actor a="0.0" aid="12" c="false" group="1" id="25" name="wall 2 12" sx="1.0" sy="1.0" x="0" y="416" z="1"/>
-        <actor a="0.0" aid="13" c="false" group="1" id="25" name="wall 2 13" sx="1.0" sy="1.0" x="0" y="352" z="1"/>
-        <actor a="0.0" aid="14" c="false" group="1" id="25" name="wall 2 14" sx="1.0" sy="1.0" x="0" y="288" z="1"/>
-        <actor a="0.0" aid="15" c="false" group="1" id="25" name="wall 2 15" sx="1.0" sy="1.0" x="0" y="224" z="1"/>
-        <actor a="0.0" aid="16" c="false" group="1" id="25" name="wall 2 16" sx="1.0" sy="1.0" x="0" y="160" z="1"/>
-        <actor a="0.0" aid="17" c="false" group="1" id="25" name="wall 2 17" sx="1.0" sy="1.0" x="0" y="96" z="1"/>
-        <actor a="0.0" aid="18" c="false" group="1" id="25" name="wall 2 18" sx="1.0" sy="1.0" x="0" y="32" z="1"/>
-        <actor a="0.0" aid="19" c="false" group="1" id="25" name="wall 2 19" sx="1.0" sy="1.0" x="0" y="0" z="1"/>
+        <actor a="0.0" aid="32" c="false" group="-2" id="29" name="next level 32" sx="1.0" sy="1.0" x="544" y="0" z="3"/>
+        <actor a="0.0" aid="44" c="false" group="-2" id="29" name="next level 44" sx="1.0" sy="1.0" x="576" y="0" z="2"/>
+        <actor a="0.0" aid="45" c="false" group="1" id="40" name="NEXT intro 2 45" sx="1.0" sy="1.0" x="480" y="384" z="3"/>
+        <actor a="0.0" aid="46" c="false" group="1" id="27" name="out of screen 46" sx="1.0" sy="1.0" x="0" y="480" z="3"/>
+        <actor a="0.0" aid="47" c="false" group="0" id="68" name="main hero 47" sx="1.0" sy="1.0" x="298" y="369" z="3"/>
+        <actor a="0.0" aid="48" c="false" group="1" id="23" name="wall 48" sx="1.0" sy="1.0" x="576" y="0" z="1"/>
+        <actor a="0.0" aid="49" c="false" group="1" id="25" name="wall 2 49" sx="1.0" sy="1.0" x="0" y="0" z="1"/>
         <actor a="0.0" aid="21" c="false" group="1" id="31" name="start ground 21" sx="1.0" sy="1.0" x="256" y="416" z="2"/>
         <actor a="0.0" aid="23" c="false" group="-2" id="29" name="next level 23" sx="1.0" sy="1.0" x="0" y="0" z="3"/>
         <actor a="0.0" aid="24" c="false" group="-2" id="29" name="next level 24" sx="1.0" sy="1.0" x="32" y="0" z="3"/>
@@ -37,11 +28,6 @@
         <actor a="0.0" aid="29" c="false" group="-2" id="29" name="next level 29" sx="1.0" sy="1.0" x="352" y="0" z="3"/>
         <actor a="0.0" aid="30" c="false" group="-2" id="29" name="next level 30" sx="1.0" sy="1.0" x="416" y="0" z="3"/>
         <actor a="0.0" aid="31" c="false" group="-2" id="29" name="next level 31" sx="1.0" sy="1.0" x="480" y="0" z="3"/>
-        <actor a="0.0" aid="32" c="false" group="-2" id="29" name="next level 32" sx="1.0" sy="1.0" x="544" y="0" z="3"/>
-        <actor a="0.0" aid="44" c="false" group="-2" id="29" name="next level 44" sx="1.0" sy="1.0" x="576" y="0" z="2"/>
-        <actor a="0.0" aid="45" c="false" group="1" id="40" name="NEXT intro 2 45" sx="1.0" sy="1.0" x="480" y="384" z="3"/>
-        <actor a="0.0" aid="46" c="false" group="1" id="27" name="out of screen 46" sx="1.0" sy="1.0" x="0" y="480" z="3"/>
-        <actor a="0.0" aid="47" c="false" group="0" id="68" name="main hero 47" sx="1.0" sy="1.0" x="298" y="369" z="3"/>
     </actors>
     <snippets/>
     <terrain>

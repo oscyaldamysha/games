@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scene depth="2" desc="" eventsnippetid="15" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="85.0" height="480" id="4" name="intro" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+<scene depth="3" desc="" eventsnippetid="15" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="85.0" height="480" id="4" name="intro" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
     <layers>
         <color-bg blue="255" green="255" red="255"/>
-        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="64,64,64" id="2" locked="false" name="Layer 2" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="64,64,64" id="2" locked="false" name="Layer 2" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="3" locked="false" name="Layer 3" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
     </layers>
     <joints/>
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="20" c="false" group="1" id="36" name="NEXT 20" sx="1.0" sy="1.0" x="480" y="384" z="2"/>
+        <actor a="0.0" aid="22" c="false" group="1" id="36" name="NEXT intro 1 22" sx="1.0" sy="1.0" x="480" y="384" z="3"/>
+        <actor a="0.0" aid="23" c="false" group="1" id="23" name="wall 23" sx="1.0" sy="1.0" x="576" y="0" z="2"/>
+        <actor a="0.0" aid="24" c="false" group="1" id="25" name="wall 2 24" sx="1.0" sy="1.0" x="0" y="0" z="2"/>
     </actors>
     <snippets/>
     <terrain>
