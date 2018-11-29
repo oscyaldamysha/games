@@ -76,17 +76,19 @@
     <props/>
     <attributes>
         <text cid="-1" id="8" name="debug log" save="true" value="0"/>
-        <number cid="-1" id="6" name="y of villain" save="true" value="0.0"/>
-        <number cid="-1" id="3" name="x of hero" save="true" value="0.0"/>
         <boolean cid="-1" id="1" name="how to unlocked" save="true" value="false"/>
-        <boolean cid="-1" id="2" name="level 1 unlocked" save="true" value="false"/>
-        <boolean cid="-1" id="11" name="level 2 hero" save="true" value="false"/>
-        <boolean cid="-1" id="10" name="level 1 hero" save="true" value="false"/>
         <boolean cid="-1" id="9" name="how to hero" save="true" value="false"/>
-        <number cid="-1" id="5" name="x of villain" save="true" value="0.0"/>
+        <boolean cid="-1" id="13" name="how to shoot unlocked" save="true" value="false"/>
+        <boolean cid="-1" id="12" name="how to shoot hero" save="true" value="false"/>
         <number cid="-1" id="0" name="Health Points" save="true" value="0.0"/>
         <number cid="-1" id="4" name="y of hero" save="true" value="0.0"/>
         <boolean cid="-1" id="7" name="level 2 unlocked" save="true" value="false"/>
+        <number cid="-1" id="6" name="y of villain" save="true" value="0.0"/>
+        <number cid="-1" id="3" name="x of hero" save="true" value="0.0"/>
+        <boolean cid="-1" id="2" name="level 1 unlocked" save="true" value="false"/>
+        <boolean cid="-1" id="11" name="level 2 hero" save="true" value="false"/>
+        <boolean cid="-1" id="10" name="level 1 hero" save="true" value="false"/>
+        <number cid="-1" id="5" name="x of villain" save="true" value="0.0"/>
     </attributes>
     <collisions>
         <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
@@ -117,7 +119,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="66,2,3,68,9,10,12,14,23,25,27,29,31,33,35,36,40,42,46,49,51,52,54,58," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="66,2,3,68,70,9,10,12,14,23,25,27,29,31,33,35,36,40,42,46,49,51,52,54,58," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>

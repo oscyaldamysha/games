@@ -69,7 +69,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_52 extends ActorScript
+class ActorEvents_40 extends ActorScript
 {
 	
 	
@@ -82,33 +82,17 @@ class ActorEvents_52 extends ActorScript
 	override public function init()
 	{
 		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		/* =========================== On Actor =========================== */
+		addMouseOverActorListener(actor, function(mouseState:Int, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled)
+			if(wrapper.enabled && 3 == mouseState)
 			{
-				Engine.engine.setGameAttribute("x of villain", actor.getX());
-				Engine.engine.setGameAttribute("y of villain", actor.getY());
+				switchScene(GameModel.get().scenes.get(0).getID(), null, createCrossfadeTransition(1));
+				Engine.engine.setGameAttribute("level 1 unlocked", true);
+				Engine.engine.setGameAttribute("level 1 hero", true);
+				Engine.engine.setGameAttribute("how to hero", false);
 			}
 		});
-		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && sameAsAny(getActorType(66), event.otherActor.getType(),event.otherActor.getGroup()))
-			{
-				recycleActor(actor);
-			}
-		});
-		
-		/* ======================= Every N seconds ======================== */
-		runPeriodically(1000 * 1.5, function(timeTask:TimedTask):Void
-		{
-			if(wrapper.enabled)
-			{
-				createRecycledActor(getActorType(54), Engine.engine.getGameAttribute("x of villain"), (Engine.engine.getGameAttribute("y of villain") + 20), Script.MIDDLE);
-			}
-		}, actor);
 		
 	}
 	

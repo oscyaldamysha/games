@@ -10,15 +10,15 @@
                             <int id="1" val="0"/>
                             <int id="2" val="1"/>
                         </scene-change-through>
-                        <set-game-val-7 comment="false" x="37" y="99">
+                        <set-game-val-11 comment="false" x="37" y="99">
                             <true comment="false" id="0" x="0" y="0"/>
-                        </set-game-val-7>
+                        </set-game-val-11>
                         <set-game-val-10 comment="false" x="37" y="124">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-game-val-10>
-                        <set-game-val-11 comment="false" x="37" y="149">
+                        <set-game-val-7 comment="false" x="37" y="149">
                             <true comment="false" id="0" x="0" y="0"/>
-                        </set-game-val-11>
+                        </set-game-val-7>
                     </group>
                     <get-game-val-10 comment="false" id="0" x="0" y="0"/>
                 </if>
@@ -29,6 +29,15 @@
                             <int id="1" val="0"/>
                             <int id="2" val="1"/>
                         </scene-change-through>
+                        <set-game-val-12 comment="false" x="37" y="238">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-12>
+                        <set-game-val-11 comment="false" x="37" y="263">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-11>
+                        <set-game-val-13 comment="false" x="37" y="288">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-13>
                     </group>
                     <get-game-val-11 comment="false" id="0" x="0" y="0"/>
                 </else-if>

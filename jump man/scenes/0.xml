@@ -30,14 +30,14 @@
         <actor a="0.0" aid="12" c="false" group="1" id="14" name="ground 2 12" sx="1.0" sy="1.0" x="160" y="192" z="1"/>
         <actor a="0.0" aid="77" c="false" group="-2" id="29" name="next level 77" sx="1.0" sy="1.0" x="512" y="0" z="3"/>
         <actor a="0.0" aid="78" c="false" group="-2" id="29" name="next level 78" sx="1.0" sy="1.0" x="576" y="0" z="3"/>
-        <actor a="0.0" aid="18" c="false" group="1" id="14" name="ground 2 18" sx="1.0" sy="1.0" x="192" y="96" z="1"/>
-        <actor a="0.0" aid="19" c="false" group="1" id="12" name="ground 19" sx="1.0" sy="1.0" x="96" y="128" z="1"/>
         <actor a="0.0" aid="90" c="false" group="1" id="33" name="fruit 90" sx="1.0" sy="1.0" x="550" y="169" z="1"/>
         <actor a="0.0" aid="91" c="false" group="1" id="42" name="Health Points 91" sx="1.0" sy="1.0" x="480" y="416" z="3"/>
         <actor a="0.0" aid="92" c="false" group="1" id="27" name="out of screen 92" sx="1.0" sy="1.0" x="0" y="480" z="3"/>
         <actor a="0.0" aid="93" c="false" group="0" id="68" name="main hero 93" sx="1.0" sy="1.0" x="299" y="369" z="1"/>
         <actor a="0.0" aid="94" c="false" group="1" id="23" name="wall 94" sx="1.0" sy="1.0" x="576" y="0" z="1"/>
         <actor a="0.0" aid="95" c="false" group="1" id="25" name="wall 2 95" sx="1.0" sy="1.0" x="0" y="0" z="1"/>
+        <actor a="0.0" aid="96" c="false" group="1" id="14" name="ground 2 96" sx="1.0" sy="1.0" x="64" y="128" z="1"/>
+        <actor a="0.0" aid="97" c="false" group="1" id="12" name="ground 97" sx="1.0" sy="1.0" x="192" y="96" z="1"/>
         <actor a="0.0" aid="56" c="false" group="1" id="12" name="ground 56" sx="1.0" sy="1.0" x="352" y="64" z="1"/>
         <actor a="0.0" aid="57" c="false" group="1" id="14" name="ground 2 57" sx="1.0" sy="1.0" x="448" y="96" z="1"/>
     </actors>
