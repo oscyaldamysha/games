@@ -76,6 +76,7 @@
     <props/>
     <attributes>
         <text cid="-1" id="8" name="debug log" save="true" value="0"/>
+        <number cid="-1" id="14" name="level" save="true" value="0"/>
         <boolean cid="-1" id="1" name="how to unlocked" save="true" value="false"/>
         <boolean cid="-1" id="9" name="how to hero" save="true" value="false"/>
         <boolean cid="-1" id="13" name="how to shoot unlocked" save="true" value="false"/>
@@ -119,7 +120,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="66,2,3,68,70,9,10,12,14,23,25,27,29,31,33,35,36,40,42,46,49,51,52,54,58," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="66,2,3,68,70,72,9,10,12,14,23,25,27,29,31,33,35,36,40,42,46,49,51,52,54,58," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>

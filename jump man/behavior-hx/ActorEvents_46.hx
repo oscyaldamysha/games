@@ -69,7 +69,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_40 extends ActorScript
+class ActorEvents_46 extends ActorScript
 {
 	
 	
@@ -82,15 +82,21 @@ class ActorEvents_40 extends ActorScript
 	override public function init()
 	{
 		
+		/* ======================== When Creating ========================= */
+		if((Engine.engine.getGameAttribute("how to unlocked") == false))
+		{
+			recycleActor(actor);
+		}
+		
 		/* =========================== On Actor =========================== */
 		addMouseOverActorListener(actor, function(mouseState:Int, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled && 3 == mouseState)
 			{
-				switchScene(GameModel.get().scenes.get(0).getID(), null, createCrossfadeTransition(1));
-				Engine.engine.setGameAttribute("level 1 unlocked", true);
-				Engine.engine.setGameAttribute("level 1 hero", true);
-				Engine.engine.setGameAttribute("how to hero", false);
+				switchScene(GameModel.get().scenes.get(4).getID(), null, createCrossfadeTransition(1));
+				Engine.engine.setGameAttribute("how to hero", true);
+				Engine.engine.setGameAttribute("level 1 hero", false);
+				Engine.engine.setGameAttribute("level 2 hero", false);
 			}
 		});
 		

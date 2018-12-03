@@ -29,16 +29,21 @@
                 <set-game-val-0 comment="false" x="26" y="69">
                     <int id="0" val="1"/>
                 </set-game-val-0>
-                <set-game-val-10 comment="false" x="26" y="89">
-                    <true comment="false" id="0" x="0" y="0"/>
-                </set-game-val-10>
-                <set-game-val-9 comment="false" x="26" y="114">
-                    <false comment="false" id="0" x="0" y="0"/>
-                </set-game-val-9>
+                <set-game-val-14 comment="false" x="26" y="89">
+                    <int id="0" val="1"/>
+                </set-game-val-14>
             </group>
             <ACTOR eid="this" id="0"/>
             <int id="1" val="2"/>
         </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="2" id="1">
+        <set-game-val-10 comment="false" x="69" y="187">
+            <true comment="false" id="0" x="0" y="0"/>
+        </set-game-val-10>
+        <set-game-val-9 comment="false" x="69" y="212">
+            <false comment="false" id="0" x="0" y="0"/>
+        </set-game-val-9>
     </group>
     <group eventID="2" id="-1"/>
 </groups>

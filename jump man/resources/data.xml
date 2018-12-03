@@ -167,12 +167,20 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="19" fixedrot="false" fric="0.2" gid="1" id="40" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="NEXT intro 2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="41" static="true">
         <snippets/>
     </actor>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="10" fixedrot="false" fric="0.2" gid="-2" id="29" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="next level" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="30" static="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="10" fixedrot="false" fric="0.2" gid="1" id="29" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="next level" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="30" static="true">
         <snippets/>
     </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="4" id="30" name="next level" shared="false" width="64">
-        <anim across="3" down="3" durations="100,100,100,100,100,100,100,100,100" height="12" id="0" loop="true" name="leaving screen" numframes="9" originx="32" originy="2" sync="false" version="2" width="192">
-            <poly data="4,0,0,64,0,64,4,0,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" height="4" id="30" name="next level" shared="false" width="640">
+        <anim across="3" down="3" durations="100,100,100,100,100,100,100,100" height="12" id="1" loop="true" name="Animation 1" numframes="8" originx="320" originy="2" sync="false" version="2" width="1920">
+            <poly data="4,0,0,640,0,640,4,0,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="34" fixedrot="false" fric="0.2" gid="1" id="72" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="next level2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="73" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="4" id="73" name="next level2" shared="false" width="640">
+        <anim across="3" down="3" durations="100,100,100,100,100,100,100,100" height="12" id="0" loop="true" name="Animation 0" numframes="8" originx="320" originy="2" sync="false" version="2" width="1920">
+            <poly data="4,0,0,640,0,640,4,0,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="9" fixedrot="false" fric="0.2" gid="1" id="27" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="out of screen" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="28" static="true">
