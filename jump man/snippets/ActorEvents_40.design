@@ -19,13 +19,5 @@
             <int id="1" val="2"/>
         </event-mouse-enter-exit-actor>
     </group>
-    <group eventID="1" id="1">
-        <set-game-val-10 comment="false" x="76" y="175">
-            <true comment="false" id="0" x="0" y="0"/>
-        </set-game-val-10>
-        <set-game-val-9 comment="false" x="76" y="200">
-            <false comment="false" id="0" x="0" y="0"/>
-        </set-game-val-9>
-    </group>
     <group eventID="1" id="-1"/>
 </groups>

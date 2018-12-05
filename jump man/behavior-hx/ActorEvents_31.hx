@@ -69,7 +69,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_66 extends ActorScript
+class ActorEvents_31 extends ActorScript
 {
 	
 	
@@ -81,9 +81,6 @@ class ActorEvents_66 extends ActorScript
 	
 	override public function init()
 	{
-		
-		/* ======================== When Creating ========================= */
-		
 		
 	}
 	

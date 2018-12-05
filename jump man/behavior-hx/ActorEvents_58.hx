@@ -69,7 +69,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_52 extends ActorScript
+class ActorEvents_58 extends ActorScript
 {
 	
 	
@@ -82,33 +82,22 @@ class ActorEvents_52 extends ActorScript
 	override public function init()
 	{
 		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		/* ======================== When Creating ========================= */
+		if((Engine.engine.getGameAttribute("level 2 unlocked") == false))
 		{
-			if(wrapper.enabled)
+			recycleActor(actor);
+		}
+		
+		/* =========================== On Actor =========================== */
+		addMouseOverActorListener(actor, function(mouseState:Int, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && 3 == mouseState)
 			{
-				Engine.engine.setGameAttribute("x of villain", actor.getX());
-				Engine.engine.setGameAttribute("y of villain", actor.getY());
+				switchScene(GameModel.get().scenes.get(3).getID(), null, createCrossfadeTransition(1));
+				Engine.engine.setGameAttribute("Health Points", 1);
+				Engine.engine.setGameAttribute("level", 2);
 			}
 		});
-		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && sameAsAny(getActorType(66), event.otherActor.getType(),event.otherActor.getGroup()))
-			{
-				recycleActor(actor);
-			}
-		});
-		
-		/* ======================= Every N seconds ======================== */
-		runPeriodically(1000 * 1.5, function(timeTask:TimedTask):Void
-		{
-			if(wrapper.enabled)
-			{
-				createRecycledActor(getActorType(54), Engine.engine.getGameAttribute("x of villain"), (Engine.engine.getGameAttribute("y of villain") + 20), Script.MIDDLE);
-			}
-		}, actor);
 		
 	}
 	

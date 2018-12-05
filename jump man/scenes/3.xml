@@ -11,9 +11,6 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="93" c="false" group="1" id="27" name="out of screen 93" sx="1.0" sy="1.0" x="0" y="480" z="3"/>
-        <actor a="0.0" aid="94" c="false" group="1" id="31" name="start ground 94" sx="1.0" sy="1.0" x="256" y="416" z="4"/>
-        <actor a="0.0" aid="95" c="false" group="1" id="14" name="ground 2 95" sx="1.0" sy="1.0" x="448" y="352" z="4"/>
         <actor a="0.0" aid="96" c="false" group="1" id="12" name="ground 96" sx="1.0" sy="1.0" x="224" y="352" z="4"/>
         <actor a="0.0" aid="97" c="false" group="1" id="12" name="ground 97" sx="1.0" sy="1.0" x="64" y="224" z="4"/>
         <actor a="0.0" aid="98" c="false" group="1" id="14" name="ground 2 98" sx="1.0" sy="1.0" x="224" y="224" z="4"/>
@@ -33,7 +30,10 @@
         <actor a="0.0" aid="114" c="false" group="0" id="68" name="main hero 114" sx="1.0" sy="1.0" x="299" y="369" z="4"/>
         <actor a="0.0" aid="115" c="false" group="1" id="25" name="wall 2 115" sx="1.0" sy="1.0" x="0" y="0" z="4"/>
         <actor a="0.0" aid="116" c="false" group="1" id="23" name="wall 116" sx="1.0" sy="1.0" x="576" y="0" z="4"/>
-        <actor a="0.0" aid="117" c="false" group="1" id="72" name="next level2 117" sx="1.0" sy="1.0" x="0" y="320" z="3"/>
+        <actor a="0.0" aid="117" c="false" group="1" id="72" name="next level2 117" sx="1.0" sy="1.0" x="0" y="0" z="3"/>
+        <actor a="0.0" aid="93" c="false" group="1" id="27" name="out of screen 93" sx="1.0" sy="1.0" x="0" y="480" z="3"/>
+        <actor a="0.0" aid="94" c="false" group="1" id="31" name="start ground 94" sx="1.0" sy="1.0" x="256" y="416" z="4"/>
+        <actor a="0.0" aid="95" c="false" group="1" id="14" name="ground 2 95" sx="1.0" sy="1.0" x="448" y="352" z="4"/>
     </actors>
     <snippets/>
     <terrain>

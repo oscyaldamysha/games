@@ -13,7 +13,7 @@
     <actors>
         <actor a="0.0" aid="96" c="false" group="1" id="14" name="ground 2 96" sx="1.0" sy="1.0" x="64" y="128" z="1"/>
         <actor a="0.0" aid="97" c="false" group="1" id="12" name="ground 97" sx="1.0" sy="1.0" x="192" y="96" z="1"/>
-        <actor a="0.0" aid="98" c="false" group="1" id="72" name="next level2 98" sx="1.0" sy="1.0" x="0" y="320" z="3"/>
+        <actor a="0.0" aid="98" c="false" group="1" id="72" name="next level2 98" sx="1.0" sy="1.0" x="0" y="0" z="3"/>
         <actor a="0.0" aid="68" c="false" group="1" id="31" name="start ground 68" sx="1.0" sy="1.0" x="256" y="416" z="1"/>
         <actor a="0.0" aid="5" c="false" group="1" id="12" name="ground 5" sx="1.0" sy="1.0" x="480" y="384" z="1"/>
         <actor a="0.0" aid="6" c="false" group="1" id="12" name="ground 6" sx="1.0" sy="1.0" x="160" y="384" z="1"/>
