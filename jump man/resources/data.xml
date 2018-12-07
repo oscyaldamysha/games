@@ -84,10 +84,7 @@
             <poly data="4,0,0,120,0,120,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="6" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="47" id="69" name="hero" shared="false" width="43">
-        <anim across="1" down="1" durations="100" height="47" id="0" loop="true" name="idle" numframes="1" originx="21" originy="23" sync="false" version="2" width="43">
-            <poly data="4,0,0,43,0,43,47,0,47" density="0.1" fric="0.2" gid="-1000" id="0" name="idle" rest="0.0" sensor="false"/>
-        </anim>
+    <sprite atlasID="0" default="5" defaultAnimation="5" desc="" height="47" id="69" name="hero" shared="false" width="43">
         <anim across="2" down="2" durations="100,100,100,100" height="94" id="1" loop="true" name="walking right" numframes="4" originx="21" originy="23" sync="false" version="2" width="86">
             <poly data="4,0,0,43,0,43,47,0,47" density="0.1" fric="0.2" gid="-1000" id="0" name="walking right" rest="0.0" sensor="false"/>
         </anim>
@@ -97,8 +94,11 @@
         <anim across="1" down="1" durations="100" height="52" id="3" loop="true" name="jumping" numframes="1" originx="21" originy="26" sync="false" version="2" width="43">
             <poly data="4,0,0,43,0,43,52,0,52" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 3" rest="0.0" sensor="false"/>
         </anim>
+        <anim across="1" down="1" durations="100" height="47" id="5" loop="true" name="idle" numframes="1" originx="21" originy="23" sync="false" version="2" width="43">
+            <poly data="4,0,0,43,0,43,47,0,47" density="0.1" fric="0.2" gid="-1000" id="0" name="idle" rest="0.0" sensor="false"/>
+        </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="31" fixedrot="true" fric="0.2" gid="4" id="66" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="hero bullet" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="67" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="31" fixedrot="true" fric="0.2" gid="5" id="66" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="hero bullet" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="67" static="false">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="12" id="67" name="hero bullet" shared="false" width="22">
@@ -119,14 +119,6 @@
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="90" id="47" name="how to play thumbnail" shared="false" width="120">
-        <anim across="1" down="1" durations="100" height="90" id="0" loop="true" name="Animation 0" numframes="1" originx="60" originy="45" sync="false" version="2" width="120">
-            <poly data="4,0,0,120,0,120,90,0,90" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="33" fixedrot="false" fric="0.2" gid="3" id="70" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="how to shoot thumbnail" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="71" static="true">
-        <snippets/>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="90" id="71" name="how to shoot thumbnail" shared="false" width="120">
         <anim across="1" down="1" durations="100" height="90" id="0" loop="true" name="Animation 0" numframes="1" originx="60" originy="45" sync="false" version="2" width="120">
             <poly data="4,0,0,120,0,120,90,0,90" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
@@ -157,6 +149,14 @@
         </anim>
     </sprite>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="41" name="NEXT" shared="false" width="128">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="64" originy="32" sync="false" version="2" width="128">
+            <poly data="4,0,0,128,0,128,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="35" fixedrot="false" fric="0.2" gid="1" id="74" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="NEXT how to shoot" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="75" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="75" name="NEXT how to shoot" shared="false" width="128">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="64" originy="32" sync="false" version="2" width="128">
             <poly data="4,0,0,128,0,128,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>

@@ -69,7 +69,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_36 extends ActorScript
+class ActorEvents_40 extends ActorScript
 {
 	
 	
@@ -87,9 +87,9 @@ class ActorEvents_36 extends ActorScript
 		{
 			if(wrapper.enabled && 3 == mouseState)
 			{
-				switchScene(GameModel.get().scenes.get(5).getID(), null, createCrossfadeTransition(1));
-				Engine.engine.setGameAttribute("intro 2 hero", true);
-				Engine.engine.setGameAttribute("Health Points", 1);
+				switchScene(GameModel.get().scenes.get(0).getID(), null, createCrossfadeTransition(1));
+				Engine.engine.setGameAttribute("level", 1);
+				Engine.engine.setGameAttribute("level 1 unlocked", true);
 			}
 		});
 		

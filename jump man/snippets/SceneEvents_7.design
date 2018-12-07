@@ -7,14 +7,19 @@
                     <font eid="35" id="0"/>
                 </set-font-new>
                 <draw-text comment="false" x="26" y="67">
-                    <int id="0" val="Your enemy can shoot you, but you can shoot your enemie!"/>
-                    <int id="1" val="90"/>
-                    <int id="2" val="100"/>
+                    <int id="0" val="Your enemy can shoot you,"/>
+                    <int id="1" val="210"/>
+                    <int id="2" val="150"/>
                 </draw-text>
                 <draw-text comment="false" x="26" y="87">
-                    <int id="0" val="Try prsesing space bar"/>
-                    <int id="1" val="220"/>
-                    <int id="2" val="150"/>
+                    <int id="0" val="but you can also shoot your enemy"/>
+                    <int id="1" val="180"/>
+                    <int id="2" val="180"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="107">
+                    <int id="0" val="Try prsesing Z key"/>
+                    <int id="1" val="237"/>
+                    <int id="2" val="210"/>
                 </draw-text>
             </group>
         </draw>
