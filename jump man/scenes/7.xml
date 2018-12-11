@@ -13,7 +13,9 @@
         <actor a="0.0" aid="26" c="false" group="1" id="23" name="wall 26" sx="1.0" sy="1.0" x="576" y="0" z="1"/>
         <actor a="0.0" aid="27" c="false" group="1" id="25" name="wall 2 27" sx="1.0" sy="1.0" x="0" y="0" z="1"/>
         <actor a="0.0" aid="28" c="false" group="0" id="68" name="main hero 28" sx="1.0" sy="1.0" x="299" y="370" z="2"/>
+        <actor a="0.0" aid="29" c="false" group="1" id="72" name="next level 29" sx="1.0" sy="1.0" x="0" y="0" z="2"/>
         <actor a="0.0" aid="14" c="false" group="1" id="31" name="start ground 14" sx="1.0" sy="1.0" x="256" y="416" z="1"/>
+        <actor a="0.0" aid="30" c="false" group="1" id="74" name="NEXT how to shoot 30" sx="1.0" sy="1.0" x="480" y="384" z="2"/>
         <actor a="0.0" aid="15" c="false" group="1" id="27" name="out of screen 15" sx="1.0" sy="1.0" x="0" y="480" z="2"/>
     </actors>
     <snippets/>

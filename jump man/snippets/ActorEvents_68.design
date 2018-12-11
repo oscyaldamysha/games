@@ -282,9 +282,22 @@
                         <int id="1" val=".5"/>
                     </eq>
                 </if>
-                <else comment="false" x="26" y="116">
+                <else-if comment="false" x="26" y="116">
                     <group eventID="21" id="-1">
-                        <shout comment="false" x="37" y="136">
+                        <scene-change-through comment="false" x="37" y="146">
+                            <scene eid="7" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="1"/>
+                        </scene-change-through>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-14 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2.5"/>
+                    </eq>
+                </else-if>
+                <else comment="false" x="26" y="185">
+                    <group eventID="21" id="-1">
+                        <shout comment="false" x="37" y="205">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="Death"/>
                         </shout>
@@ -390,9 +403,6 @@
                         <set-game-val-14 comment="false" x="37" y="278">
                             <int id="0" val="2.5"/>
                         </set-game-val-14>
-                        <set-game-val-13 comment="false" x="37" y="298">
-                            <true comment="false" id="0" x="0" y="0"/>
-                        </set-game-val-13>
                     </group>
                     <and comment="false" id="0" x="0" y="0">
                         <eq comment="false" id="0" x="0" y="0">
@@ -427,9 +437,12 @@
     <group eventID="29" id="0">
         <init comment="false" x="15" y="15">
             <group eventID="29" id="-1">
-                <dolater comment="false" x="26" y="40">
+                <camera-follow comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                </camera-follow>
+                <dolater comment="false" x="26" y="67">
                     <group eventID="29" id="-1">
-                        <set-game-val-15 comment="false" x="37" y="67">
+                        <set-game-val-15 comment="false" x="37" y="94">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-game-val-15>
                     </group>
@@ -819,4 +832,14 @@
         </event-key-press-release>
     </group>
     <group eventID="30" id="-1"/>
+    <group eventID="31" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="31" id="-1">
+                <camera-follow comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                </camera-follow>
+            </group>
+        </step>
+    </group>
+    <group eventID="31" id="-1"/>
 </groups>
