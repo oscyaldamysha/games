@@ -18,17 +18,17 @@
         <actor a="0.0" aid="133" c="false" group="1" id="12" name="ground 133" sx="1.0" sy="1.0" x="448" y="512" z="1"/>
         <actor a="0.0" aid="134" c="false" group="1" id="14" name="ground 2 134" sx="1.0" sy="1.0" x="512" y="448" z="1"/>
         <actor a="0.0" aid="135" c="false" group="1" id="14" name="ground 2 135" sx="1.0" sy="1.0" x="384" y="384" z="1"/>
-        <actor a="0.0" aid="137" c="false" group="1" id="12" name="ground 137" sx="1.0" sy="1.0" x="128" y="320" z="1"/>
         <actor a="0.0" aid="138" c="false" group="1" id="14" name="ground 2 138" sx="1.0" sy="1.0" x="256" y="256" z="1"/>
-        <actor a="0.0" aid="139" c="false" group="1" id="12" name="ground 139" sx="1.0" sy="1.0" x="128" y="192" z="1"/>
         <actor a="0.0" aid="140" c="false" group="1" id="12" name="ground 140" sx="1.0" sy="1.0" x="480" y="256" z="1"/>
         <actor a="0.0" aid="142" c="false" group="1" id="12" name="ground 142" sx="1.0" sy="1.0" x="288" y="160" z="1"/>
         <actor a="0.0" aid="143" c="false" group="1" id="14" name="ground 2 143" sx="1.0" sy="1.0" x="384" y="96" z="1"/>
         <actor a="0.0" aid="145" c="false" group="1" id="12" name="ground 145" sx="1.0" sy="1.0" x="512" y="64" z="1"/>
-        <actor a="0.0" aid="146" c="false" group="1" id="12" name="ground 146" sx="1.0" sy="1.0" x="160" y="64" z="1"/>
         <actor a="0.0" aid="147" c="false" group="1" id="12" name="ground 147" sx="1.0" sy="1.0" x="384" y="608" z="1"/>
         <actor a="0.0" aid="148" c="false" group="1" id="12" name="ground 148" sx="1.0" sy="1.0" x="544" y="160" z="1"/>
         <actor a="0.0" aid="149" c="false" group="1" id="14" name="ground 2 149" sx="1.0" sy="1.0" x="224" y="352" z="1"/>
+        <actor a="0.0" aid="151" c="false" group="1" id="12" name="ground 151" sx="1.0" sy="1.0" x="160" y="320" z="1"/>
+        <actor a="0.0" aid="152" c="false" group="1" id="14" name="ground 2 152" sx="1.0" sy="1.0" x="96" y="192" z="1"/>
+        <actor a="0.0" aid="153" c="false" group="1" id="12" name="ground 153" sx="1.0" sy="1.0" x="96" y="64" z="1"/>
         <actor a="0.0" aid="91" c="false" group="1" id="42" name="Health Points 91" sx="1.0" sy="1.0" x="480" y="1376" z="3"/>
         <actor a="0.0" aid="92" c="false" group="1" id="27" name="out of screen 92" sx="1.0" sy="1.0" x="0" y="1440" z="3"/>
         <actor a="0.0" aid="94" c="false" group="1" id="23" name="wall 94" sx="1.0" sy="1.0" x="576" y="960" z="1"/>

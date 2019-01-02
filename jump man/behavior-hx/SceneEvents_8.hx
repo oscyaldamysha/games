@@ -40,6 +40,7 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
+import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -69,18 +70,22 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_31 extends ActorScript
+class SceneEvents_8 extends SceneScript
 {
 	
 	
-	public function new(dummy:Int, actor:Actor, dummy2:Engine)
+	public function new(dummy:Int, dummy2:Engine)
 	{
-		super(actor);
+		super();
 		
 	}
 	
 	override public function init()
 	{
+		
+		/* ======================== When Creating ========================= */
+		Engine.engine.setGameAttribute("Health Points", 1);
+		Engine.engine.setGameAttribute("level", 3);
 		
 	}
 	

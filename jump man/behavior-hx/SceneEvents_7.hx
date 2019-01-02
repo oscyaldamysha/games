@@ -70,18 +70,33 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_3 extends SceneScript
+class SceneEvents_7 extends SceneScript
 {
+	public var _howtoshoot:String;
 	
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
 		super();
+		nameMap.set("how to shoot", "_howtoshoot");
+		_howtoshoot = "";
 		
 	}
 	
 	override public function init()
 	{
+		
+		/* ========================= When Drawing ========================= */
+		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				g.setFont(getFont(35));
+				g.drawString("" + "Your enemy can shoot you,", 210, 150);
+				g.drawString("" + "but you can also shoot your enemy", 180, 180);
+				g.drawString("" + "Try prsesing Z key", 237, 210);
+			}
+		});
 		
 	}
 	
