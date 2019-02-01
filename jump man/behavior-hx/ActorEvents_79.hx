@@ -69,7 +69,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_66 extends ActorScript
+class ActorEvents_79 extends ActorScript
 {
 	
 	
@@ -81,6 +81,28 @@ class ActorEvents_66 extends ActorScript
 	
 	override public function init()
 	{
+		
+		/* ======================== When Creating ========================= */
+		actor.setYVelocity(30);
+		
+		/* ======================== Actor of Type ========================= */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAsAny(getActorType(68), event.otherActor.getType(),event.otherActor.getGroup()))
+			{
+				recycleActor(actor);
+				Engine.engine.setGameAttribute("Health Points", (Engine.engine.getGameAttribute("Health Points") - 1));
+			}
+		});
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				actor.killSelfAfterLeavingScreen();
+			}
+		});
 		
 	}
 	

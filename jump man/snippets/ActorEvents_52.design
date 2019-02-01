@@ -37,9 +37,9 @@
         </event-periodic>
     </group>
     <group eventID="3" id="-1"/>
-    <group eventID="4" id="0">
+    <group eventID="6" id="0">
         <event-collide-actortotype comment="false" x="15" y="15">
-            <group eventID="4" id="-1">
+            <group eventID="6" id="-1">
                 <die comment="false" x="26" y="47">
                     <ACTOR eid="this" id="0"/>
                 </die>
@@ -48,5 +48,5 @@
             <actortype eid="66" id="1"/>
         </event-collide-actortotype>
     </group>
-    <group eventID="4" id="-1"/>
+    <group eventID="6" id="-1"/>
 </groups>

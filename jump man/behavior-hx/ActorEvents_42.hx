@@ -69,7 +69,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_58 extends ActorScript
+class ActorEvents_42 extends ActorScript
 {
 	
 	
@@ -82,20 +82,39 @@ class ActorEvents_58 extends ActorScript
 	override public function init()
 	{
 		
-		/* ======================== When Creating ========================= */
-		if((Engine.engine.getGameAttribute("level 2 unlocked") == false))
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
 		{
-			recycleActor(actor);
-		}
-		
-		/* =========================== On Actor =========================== */
-		addMouseOverActorListener(actor, function(mouseState:Int, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && 3 == mouseState)
+			if(wrapper.enabled)
 			{
-				switchScene(GameModel.get().scenes.get(3).getID(), null, createCrossfadeTransition(1));
-				Engine.engine.setGameAttribute("Health Points", 1);
-				Engine.engine.setGameAttribute("level", 2);
+				if((Engine.engine.getGameAttribute("Health Points") == 0))
+				{
+					actor.setAnimation("" + "0");
+				}
+				if((Engine.engine.getGameAttribute("Health Points") == 1))
+				{
+					actor.setAnimation("" + "1");
+				}
+				if((Engine.engine.getGameAttribute("Health Points") == 2))
+				{
+					actor.setAnimation("" + "2");
+				}
+				if((Engine.engine.getGameAttribute("Health Points") == 3))
+				{
+					actor.setAnimation("" + "3");
+				}
+				if((Engine.engine.getGameAttribute("Health Points") == 4))
+				{
+					actor.setAnimation("" + "4");
+				}
+				if((Engine.engine.getGameAttribute("Health Points") == 5))
+				{
+					actor.setAnimation("" + "5");
+				}
+				if((Engine.engine.getGameAttribute("Health Points") == 6))
+				{
+					actor.setAnimation("" + "6");
+				}
 			}
 		});
 		

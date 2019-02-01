@@ -3,21 +3,20 @@
     <layers>
         <color-bg blue="255" green="255" red="255"/>
         <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="3" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="0,255,0" id="1" locked="false" name="Layer 1" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="64,64,64" id="2" locked="false" name="Layer 2" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="64,64,64" id="2" locked="false" name="Layer 2" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="1" locked="false" name="Layer 1" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
         <layer blendMode="normal" color="255,0,255" id="3" locked="false" name="Layer 3" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
     </layers>
     <joints/>
     <regions/>
     <terrainRegions/>
     <actors>
+        <actor a="0.0" aid="48" c="false" group="1" id="23" name="wall 48" sx="1.0" sy="1.0" x="576" y="0" z="1"/>
+        <actor a="0.0" aid="49" c="false" group="1" id="25" name="wall 2 49" sx="1.0" sy="1.0" x="0" y="0" z="1"/>
+        <actor a="0.0" aid="21" c="false" group="1" id="31" name="start ground 21" sx="1.0" sy="1.0" x="256" y="416" z="2"/>
         <actor a="0.0" aid="45" c="false" group="1" id="40" name="NEXT intro 2 45" sx="1.0" sy="1.0" x="480" y="384" z="3"/>
         <actor a="0.0" aid="46" c="false" group="1" id="27" name="out of screen 46" sx="1.0" sy="1.0" x="0" y="480" z="3"/>
         <actor a="0.0" aid="47" c="false" group="0" id="68" name="main hero 47" sx="1.0" sy="1.0" x="298" y="369" z="3"/>
-        <actor a="0.0" aid="48" c="false" group="1" id="23" name="wall 48" sx="1.0" sy="1.0" x="576" y="0" z="1"/>
-        <actor a="0.0" aid="49" c="false" group="1" id="25" name="wall 2 49" sx="1.0" sy="1.0" x="0" y="0" z="1"/>
-        <actor a="0.0" aid="50" c="false" group="1" id="29" name="next level 50" sx="1.0" sy="1.0" x="0" y="0" z="2"/>
-        <actor a="0.0" aid="21" c="false" group="1" id="31" name="start ground 21" sx="1.0" sy="1.0" x="256" y="416" z="2"/>
     </actors>
     <snippets/>
     <terrain>

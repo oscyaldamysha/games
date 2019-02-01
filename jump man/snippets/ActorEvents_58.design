@@ -37,13 +37,5 @@
             <int id="1" val="2"/>
         </event-mouse-enter-exit-actor>
     </group>
-    <group eventID="3" id="1">
-        <set-game-val-11 comment="false" x="121" y="253">
-            <true comment="false" id="0" x="0" y="0"/>
-        </set-game-val-11>
-        <set-game-val-10 comment="false" x="121" y="278">
-            <false comment="false" id="0" x="0" y="0"/>
-        </set-game-val-10>
-    </group>
     <group eventID="3" id="-1"/>
 </groups>
