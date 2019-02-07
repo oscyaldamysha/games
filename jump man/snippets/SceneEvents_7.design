@@ -25,4 +25,17 @@
         </draw>
     </group>
     <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-game-val-14 comment="false" x="26" y="40">
+                    <int id="0" val="2.5"/>
+                </set-game-val-14>
+                <set-game-val-0 comment="false" x="26" y="60">
+                    <int id="0" val="1"/>
+                </set-game-val-0>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
 </groups>

@@ -49,14 +49,54 @@
                         <control eid="2" id="1"/>
                     </keystate>
                 </else-if>
-                <else comment="false" x="26" y="338">
+                <else-if comment="false" x="26" y="338">
                     <group eventID="1" id="-1">
-                        <set-dxy comment="false" x="37" y="358">
+                        <set-val-32-5 comment="false" x="37" y="376">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-32-5>
+                        <set-val-32-3 comment="false" x="37" y="401">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-32-3>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <keystate comment="false" id="0" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <control eid="3" id="1"/>
+                        </keystate>
+                        <keystate comment="false" id="1" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <control eid="0" id="1"/>
+                        </keystate>
+                    </and>
+                </else-if>
+                <else-if comment="false" x="26" y="438">
+                    <group eventID="1" id="-1">
+                        <set-val-32-5 comment="false" x="37" y="476">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-32-5>
+                        <set-val-32-4 comment="false" x="37" y="501">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-32-4>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <keystate comment="false" id="0" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <control eid="2" id="1"/>
+                        </keystate>
+                        <keystate comment="false" id="1" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <control eid="0" id="1"/>
+                        </keystate>
+                    </and>
+                </else-if>
+                <else comment="false" x="26" y="538">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="558">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="0"/>
                         </set-dxy>
-                        <setanim comment="false" x="37" y="385">
+                        <setanim comment="false" x="37" y="585">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="idle"/>
                         </setanim>
@@ -91,6 +131,12 @@
                         <set-val-32-5 comment="false" x="37" y="184">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-val-32-5>
+                        <set-val-32-3 comment="false" x="37" y="209">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-32-3>
+                        <set-val-32-4 comment="false" x="37" y="234">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-32-4>
                     </group>
                     <and comment="false" id="0" x="0" y="0">
                         <keystate comment="false" id="0" x="0" y="0">
@@ -599,21 +645,21 @@
                                 </create-actor3>
                                 <set-dxy comment="false" x="69" y="609">
                                     <ACTOR eid="lastcreated" id="0"/>
-                                    <int id="1" val="0"/>
-                                    <int id="2" val="30"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="-30"/>
                                 </set-dxy>
                                 <setanim comment="false" x="69" y="636">
                                     <ACTOR eid="lastcreated" id="0"/>
-                                    <int id="1" val="right"/>
+                                    <int id="1" val="up"/>
                                 </setanim>
                                 <set-val-32-3 comment="false" x="69" y="663">
-                                    <true comment="false" id="0" x="0" y="0"/>
+                                    <false comment="false" id="0" x="0" y="0"/>
                                 </set-val-32-3>
                                 <set-val-32-4 comment="false" x="69" y="688">
                                     <false comment="false" id="0" x="0" y="0"/>
                                 </set-val-32-4>
                                 <set-val-32-5 comment="false" x="69" y="713">
-                                    <false comment="false" id="0" x="0" y="0"/>
+                                    <true comment="false" id="0" x="0" y="0"/>
                                 </set-val-32-5>
                                 <set-val-32-6 comment="false" x="69" y="738">
                                     <false comment="false" id="0" x="0" y="0"/>
@@ -646,21 +692,21 @@
                                 </create-actor3>
                                 <set-dxy comment="false" x="69" y="850">
                                     <ACTOR eid="lastcreated" id="0"/>
-                                    <int id="1" val="0"/>
+                                    <int id="1" val="1"/>
                                     <int id="2" val="-30"/>
                                 </set-dxy>
                                 <setanim comment="false" x="69" y="877">
                                     <ACTOR eid="lastcreated" id="0"/>
-                                    <int id="1" val="left"/>
+                                    <int id="1" val="up"/>
                                 </setanim>
                                 <set-val-32-3 comment="false" x="69" y="904">
                                     <false comment="false" id="0" x="0" y="0"/>
                                 </set-val-32-3>
                                 <set-val-32-4 comment="false" x="69" y="929">
-                                    <true comment="false" id="0" x="0" y="0"/>
+                                    <false comment="false" id="0" x="0" y="0"/>
                                 </set-val-32-4>
                                 <set-val-32-5 comment="false" x="69" y="954">
-                                    <false comment="false" id="0" x="0" y="0"/>
+                                    <true comment="false" id="0" x="0" y="0"/>
                                 </set-val-32-5>
                                 <set-val-32-6 comment="false" x="69" y="979">
                                     <false comment="false" id="0" x="0" y="0"/>

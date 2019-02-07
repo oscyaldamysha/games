@@ -21,13 +21,12 @@
         <actor a="0.0" aid="138" c="false" group="1" id="14" name="ground 2 138" sx="1.0" sy="1.0" x="256" y="256" z="1"/>
         <actor a="0.0" aid="142" c="false" group="1" id="12" name="ground 142" sx="1.0" sy="1.0" x="448" y="256" z="1"/>
         <actor a="0.0" aid="143" c="false" group="1" id="14" name="ground 2 143" sx="1.0" sy="1.0" x="384" y="96" z="1"/>
-        <actor a="0.0" aid="145" c="false" group="1" id="12" name="ground 145" sx="1.0" sy="1.0" x="512" y="64" z="1"/>
         <actor a="0.0" aid="147" c="false" group="1" id="12" name="ground 147" sx="1.0" sy="1.0" x="384" y="608" z="1"/>
         <actor a="0.0" aid="148" c="false" group="1" id="12" name="ground 148" sx="1.0" sy="1.0" x="544" y="160" z="1"/>
         <actor a="0.0" aid="149" c="false" group="1" id="14" name="ground 2 149" sx="1.0" sy="1.0" x="224" y="352" z="1"/>
         <actor a="0.0" aid="151" c="false" group="1" id="12" name="ground 151" sx="1.0" sy="1.0" x="128" y="320" z="1"/>
-        <actor a="0.0" aid="152" c="false" group="1" id="14" name="ground 2 152" sx="1.0" sy="1.0" x="96" y="192" z="1"/>
-        <actor a="0.0" aid="153" c="false" group="1" id="12" name="ground 153" sx="1.0" sy="1.0" x="224" y="96" z="1"/>
+        <actor a="0.0" aid="152" c="false" group="1" id="14" name="ground 2 152" sx="1.0" sy="1.0" x="128" y="192" z="1"/>
+        <actor a="0.0" aid="153" c="false" group="1" id="12" name="ground 153" sx="1.0" sy="1.0" x="256" y="128" z="1"/>
         <actor a="0.0" aid="154" c="false" group="2" id="42" name="Health Points 154" sx="1.0" sy="1.0" x="480" y="1376" z="3"/>
         <actor a="0.0" aid="155" c="false" group="1" id="33" name="fruit 155" sx="1.0" sy="1.0" x="374" y="1195" z="3"/>
         <actor a="0.0" aid="156" c="false" group="1" id="33" name="fruit 156" sx="1.0" sy="1.0" x="71" y="776" z="3"/>
@@ -35,6 +34,7 @@
         <actor a="0.0" aid="158" c="false" group="6" id="52" name="villain 158" sx="1.0" sy="1.0" x="506" y="785" z="3"/>
         <actor a="0.0" aid="159" c="false" group="1" id="72" name="next level 159" sx="1.0" sy="1.0" x="0" y="0" z="3"/>
         <actor a="0.0" aid="160" c="false" group="6" id="77" name="villain Copy 160" sx="1.0" sy="1.0" x="395" y="48" z="3"/>
+        <actor a="0.0" aid="161" c="false" group="1" id="12" name="ground 161" sx="1.0" sy="1.0" x="160" y="64" z="1"/>
         <actor a="0.0" aid="92" c="false" group="1" id="27" name="out of screen 92" sx="1.0" sy="1.0" x="0" y="1440" z="3"/>
         <actor a="0.0" aid="94" c="false" group="1" id="23" name="wall 94" sx="1.0" sy="1.0" x="576" y="960" z="1"/>
         <actor a="0.0" aid="95" c="false" group="1" id="25" name="wall 2 95" sx="1.0" sy="1.0" x="0" y="960" z="1"/>
