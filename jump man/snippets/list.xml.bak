@@ -163,26 +163,29 @@
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="facing left" hidden="false" id="4" name="_facingleft" order="3"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="facing up" hidden="false" id="5" name="_facingup" order="4"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="facing down" hidden="false" id="6" name="_facingdown" order="5"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="facing diagonally right &amp; up" hidden="false" id="9" name="_facingdiagonallyrightup2" order="6"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="facing diagonally left &amp; up" hidden="false" id="10" name="_facingdiagonallyleftup" order="7"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="animation state" hidden="false" id="11" name="_animationstate" order="8"/>
         <blocks/>
         <events>
-            <event displayName="left &amp; right" enabled="true" id="1" name="step" order="1" repeats="true"/>
-            <event displayName="jump" enabled="true" id="2" name="step" order="28" repeats="true"/>
-            <event displayName="jump" enabled="true" id="4" name="event-collide-actortogroup" order="39" repeats="true"/>
-            <event displayName="death" enabled="true" id="9" name="event-custom" order="33" repeats="true"/>
-            <event displayName="lose all health" enabled="true" id="14" name="step" order="15" repeats="true"/>
-            <event displayName="dies" enabled="true" id="15" name="event-custom" order="22" repeats="true"/>
-            <event displayName="out of bounds" enabled="true" id="17" name="event-collide-actortotype" order="30" repeats="true"/>
-            <event displayName="up is down" enabled="true" id="19" name="step" order="5" repeats="true"/>
-            <event displayName="wall 2" enabled="true" id="20" name="event-collide-actortotype" order="12" repeats="true"/>
-            <event displayName="wall " enabled="true" id="21" name="event-collide-actortotype" order="10" repeats="true"/>
-            <event displayName="collide w bullet" enabled="true" id="23" name="event-collide-actortotype" order="4" repeats="true"/>
-            <event displayName="collide w villain" enabled="true" id="24" name="event-collide-actortotype" order="16" repeats="true"/>
-            <event displayName="x &amp; y of self" enabled="true" id="25" name="step" order="2" repeats="true"/>
-            <event displayName="next level" enabled="true" id="26" name="event-collide-actortotype" order="17" repeats="true"/>
-            <event displayName="Drawing" enabled="false" id="28" name="draw" order="19" repeats="true"/>
-            <event displayName="Created" enabled="true" id="29" name="init" order="18" repeats="true"/>
-            <event displayName="shooting" enabled="true" id="30" name="event-key-press-release" order="3" repeats="true"/>
-            <event displayName="Updating" enabled="true" id="31" name="step" order="23" repeats="true"/>
+            <event displayName="Updating" enabled="false" id="32" name="step" order="4" repeats="true"/>
+            <event displayName="left &amp; right" enabled="true" id="1" name="step" order="2" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="33" name="step" order="3" repeats="true"/>
+            <event displayName="jump" enabled="true" id="4" name="event-collide-actortogroup" order="41" repeats="true"/>
+            <event displayName="death" enabled="true" id="9" name="event-custom" order="35" repeats="true"/>
+            <event displayName="lose all health" enabled="true" id="14" name="step" order="17" repeats="true"/>
+            <event displayName="dies" enabled="true" id="15" name="event-custom" order="24" repeats="true"/>
+            <event displayName="out of bounds" enabled="true" id="17" name="event-collide-actortotype" order="32" repeats="true"/>
+            <event displayName="wall 2" enabled="true" id="20" name="event-collide-actortotype" order="14" repeats="true"/>
+            <event displayName="wall " enabled="true" id="21" name="event-collide-actortotype" order="12" repeats="true"/>
+            <event displayName="collide w bullet" enabled="true" id="23" name="event-collide-actortotype" order="6" repeats="true"/>
+            <event displayName="collide w villain" enabled="true" id="24" name="event-collide-actortotype" order="18" repeats="true"/>
+            <event displayName="x &amp; y of self" enabled="true" id="25" name="step" order="1" repeats="true"/>
+            <event displayName="next level" enabled="true" id="26" name="event-collide-actortotype" order="19" repeats="true"/>
+            <event displayName="Drawing" enabled="false" id="28" name="draw" order="21" repeats="true"/>
+            <event displayName="Created" enabled="true" id="29" name="init" order="20" repeats="true"/>
+            <event displayName="shooting" enabled="true" id="30" name="event-key-press-release" order="5" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="31" name="step" order="25" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="72" attachedevent="true" class="scripts.ActorEvents_72" classname="scripts.ActorEvents_72" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="34" name="ActorEvents_72" oid="-1" package="scripts." shared="false" type="actor">

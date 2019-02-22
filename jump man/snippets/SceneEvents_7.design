@@ -21,6 +21,11 @@
                     <int id="1" val="237"/>
                     <int id="2" val="210"/>
                 </draw-text>
+                <draw-text comment="false" x="26" y="127">
+                    <get-game-val-8 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="200"/>
+                    <int id="2" val="200"/>
+                </draw-text>
             </group>
         </draw>
     </group>
