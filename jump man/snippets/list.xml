@@ -165,11 +165,14 @@
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="facing down" hidden="false" id="6" name="_facingdown" order="5"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="facing diagonally right &amp; up" hidden="false" id="9" name="_facingdiagonallyrightup2" order="6"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="facing diagonally left &amp; up" hidden="false" id="10" name="_facingdiagonallyleftup" order="7"/>
-        <number default="0" defaultValue="0" desc="" dropdown="" fullname="animation state" hidden="false" id="11" name="_animationstate" order="8"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="animation state" hidden="false" id="11" name="_animationstate" order="8"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="21" hidden="false" id="12" name="_21" order="9"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="22" hidden="false" id="13" name="_22" order="10"/>
         <blocks/>
         <events>
             <event displayName="Updating" enabled="false" id="32" name="step" order="4" repeats="true"/>
             <event displayName="left &amp; right" enabled="true" id="1" name="step" order="2" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="33" name="step" order="42" repeats="true"/>
             <event displayName="jump" enabled="true" id="4" name="event-collide-actortogroup" order="41" repeats="true"/>
             <event displayName="death" enabled="true" id="9" name="event-custom" order="35" repeats="true"/>
             <event displayName="lose all health" enabled="true" id="14" name="step" order="17" repeats="true"/>
@@ -183,7 +186,7 @@
             <event displayName="next level" enabled="true" id="26" name="event-collide-actortotype" order="19" repeats="true"/>
             <event displayName="Drawing" enabled="false" id="28" name="draw" order="21" repeats="true"/>
             <event displayName="Created" enabled="true" id="29" name="init" order="20" repeats="true"/>
-            <event displayName="shooting" enabled="true" id="30" name="event-key-press-release" order="5" repeats="true"/>
+            <event displayName="shooting" enabled="false" id="30" name="event-key-press-release" order="5" repeats="true"/>
             <event displayName="Updating" enabled="true" id="31" name="step" order="25" repeats="true"/>
         </events>
     </snippet>
