@@ -168,11 +168,12 @@
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="animation state" hidden="false" id="11" name="_animationstate" order="8"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="21" hidden="false" id="12" name="_21" order="9"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="22" hidden="false" id="13" name="_22" order="10"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="both touchfloor" hidden="false" id="14" name="_bothtouchfloor" order="11"/>
         <blocks/>
         <events>
-            <event displayName="Updating" enabled="false" id="32" name="step" order="4" repeats="true"/>
             <event displayName="left &amp; right" enabled="true" id="1" name="step" order="2" repeats="true"/>
             <event displayName="Updating" enabled="true" id="33" name="step" order="42" repeats="true"/>
+            <event displayName="Boolean" enabled="true" id="34" name="event-att-bool" order="43" repeats="true"/>
             <event displayName="jump" enabled="true" id="4" name="event-collide-actortogroup" order="41" repeats="true"/>
             <event displayName="death" enabled="true" id="9" name="event-custom" order="35" repeats="true"/>
             <event displayName="lose all health" enabled="true" id="14" name="step" order="17" repeats="true"/>
